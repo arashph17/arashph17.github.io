@@ -24,15 +24,9 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 19px;
   font-weight: 300;
-  color: #ffffff;
-  background-color: black;
+  color: black;
+  background-color: lightblue;
   overflow-x: hidden;
-}
-@media screen and (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-    color: black;
-  }
 }
 
 .tm-mb-25 { margin-bottom: 25px; }
@@ -155,7 +149,7 @@ p {
 
 .tm-section-2-left {
   display: flex;
-  width: 50%;
+  width: 70%;
   min-height: 560px;
   -webkit-clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
   clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
@@ -177,18 +171,18 @@ p {
 }
 
 .tm-img-container-1 {
-  background-image: url(../img/green-tree-red-cup.jpg);
+  background-image: url(../img/bb.jpg);
   background-position: top center;
 }
 
 .tm-img-container-2 {
-  background-image: url(../img/girl-01.jpg);
+  background-image: url(../img/aa.png);
   background-position: top center;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .tm-img-container-3 {
-  background-image: url(../img/backpack-guy.jpg);
+  background-image: url(../img/2.png);
   background-position: top right;
 }
 
