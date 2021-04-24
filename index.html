@@ -8,57 +8,32 @@
   <title>God bless programing</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
-  <link rel="stylesheet" href="css/bootstrap.min.css">                                      
-  <link rel="stylesheet" href="css/templatemo-style.css">
-
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: rgb(0, 191, 195);
+    }
+  </style>
 </head>
 
 <body>
-  <a href='https://github.com/Pooria0098/Clock' target="_blank">Thanks to Pooria :) </a>
-  <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-  <script>
-  function showTime(){
-    var date = new Date();
-    var h = date.getHours(); // 0 - 23
-    var m = date.getMinutes(); // 0 - 59
-    var s = date.getSeconds(); // 0 - 59
-    var session = "AM";
-
-    if(h == 0){
-        h = 12;
-    }
-
-    if(h > 12){
-        h = h - 12;
-        session = "PM";
-    }
-
-    h = (h < 10) ? "0" + h : h;
-    m = (m < 10) ? "0" + m : m;
-    s = (s < 10) ? "0" + s : s;
-
-    var time = h + ":" + m + ":" + s + " " + session;
-    document.getElementById("MyClockDisplay").innerText = time;
-    document.getElementById("MyClockDisplay").textContent = time;
-
-    setTimeout(showTime, 1000);
-  }
-  showTime();
-  </script>
-
-  <a href='pre/index.html' target="_blank">my pre personal page </a>
+  <a href='pre/index.html' target="_blank">my personal page </a>
 
 
   <section class="row" style="color:black;">
     <div class="col-md-5 d-flex tm-contact-left-col" >
       <div class="tm-bg-primary tm-contact-left" style="background-color:#66ff66">
         <div class="tm-contact-left-inner">
-          <h2 class="text-center tm-mb-40 tm-contact-header" >Hey Buddy<br><br><a href="cv.pdf" target="_blank" class="text-center tm-mb-40 tm-contact-header" style="color:red;">my cv</a></h2>
+          <h2 class="text-center tm-mb-40 tm-contact-header" >Hey Buddy<br><br><a href="resume.pdf" target="_blank" class="text-center tm-mb-40 tm-contact-header" style="color:red;">my Resume</a></h2>
           <div class="mb-2 tm-font-normal">
             
           </div>
           <p class="tm-line-height-2 mb-5"><br>&#9196 &#9196 You can contact me this ways:&#9196 &#9196</p>
           
+          
+          
+          
+
           <div class="mb-2 tm-font-normal">
             Telegram: <a href="https://t.me/arashph17" target="_blank" class="tm-contact-link" style="color:black;">@arashph17</a>
           </div>
@@ -69,35 +44,29 @@
             Gmail: <a href="mailto:arash.ph17@gmail.com" target="_blank" class="tm-contact-link" style="color:black;">arash.ph17@gmail.com</a>
           </div>
           <div class="mb-2 tm-font-normal">
+            Twitter: <a href="https://twitter.com/arashph17" target="_blank" class="tm-contact-link" style="color:black;">@arashph17</a>
+          </div>
+          <div class="mb-2 tm-font-normal">
+            Instagram: <a href="https://instagram.com/arashph17/" target="_blank" class="tm-contact-link" style="color:black;">@arashph17</a>
+          </div>
+
+          <div class="mb-2 tm-font-normal">
             Github: <a href="https://github.com/arashph17" target="_blank" class="tm-contact-link" style="color:black;">arashph17</a>
+          </div>
+          <div class="mb-2 tm-font-normal">
+            Linkedin: <a href="https://www.linkedin.com/in/amirhosein-ghanbari/" target="_blank" class="tm-contact-link" style="color:black;">@amirhosein-ghanbari</a>
           </div>
           
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <form action="#" method="post" class="tm-contact-form">
-        <div class="form-group mb-4">
-          <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
-        </div>
-        <div class="form-group mb-4">
-          <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
-        </div>
-        <div class="form-group mb-4">
-          <textarea rows="6" id="contact_message" name="contact_message" class="form-control" placeholder="I disabled this feature, if you want write something for yourself :)" required></textarea>
-        </div>
-        <div class="form-group mb-0">
-          <button>Do nothing :)</button>
-        </div>
-      </form>
-    </div>
   </section>
 
-  <footer class="pt-4 pb-4">
-    <p class="text-center tm-text-light-dark" style="color: black">By <a href="https://github.com/arashph17" target="_blank">arash</a>
+  <footer>
+    <p style="color: black">By <a href="https://github.com/arashph17" target="_blank">arash</a>
   </footer>
 
-</div> <!-- container -->
+</div>
 
 </body>
 </html>
